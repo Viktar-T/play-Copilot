@@ -1,0 +1,27 @@
+/* make the background color of the body yellow */
+body {
+  background-color: wheat;
+}
+/* make the background color of the body yellow */
+/* make all the h1 elements uppercase */
+h1 {
+  text-transform: uppercase;
+}
+/* make each line  of the bullet list elements with id="ul2" with different color: blue, red, green */
+#ul2 li:nth-child(1) {
+  color: blue;
+}
+
+#ul2 li:nth-child(2) {
+  color: red;
+}
+
+#ul2 li:nth-child(3) {
+  color: green;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
